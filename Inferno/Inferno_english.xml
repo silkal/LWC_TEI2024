@@ -138,7 +138,7 @@
 	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-07T18:18:14.595Z",
-	"dcterms:modified": "2024-10-07T18:18:14.595Z",
+	"dcterms:modified": "2024-10-07T18:29:04.030Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/silkal",
 		"@type": [
