@@ -138,7 +138,7 @@
 	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-07T18:18:14.595Z",
-	"dcterms:modified": "2024-10-07T18:32:26.771Z",
+	"dcterms:modified": "2024-10-07T18:33:03.051Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/silkal",
 		"@type": [
@@ -181,7 +181,7 @@
 		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:lowCertainty"
+	"cwrc:hasPrecision": "cwrc:UnknownCertainty"
 }]]>
         </rdf:Description>
       
@@ -616,7 +616,7 @@
             <lg n="15">
                <l n="43">Great grief seized on my heart when this I heard,</l>
                <l n="44">Because some people of much worthiness</l>
-               <l n="45">I knew, who in that <placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="high">Limbo<precision match="@ref" precision="low"/></placeName> were suspended.</l>
+               <l n="45">I knew, who in that <placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="high">Limbo<precision match="@ref" precision="Unknown"/></placeName> were suspended.</l>
             </lg>
 
             <lg n="16">
