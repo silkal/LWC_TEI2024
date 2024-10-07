@@ -135,10 +135,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595",
+	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007203303051",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-10-07T18:18:14.595Z",
-	"dcterms:modified": "2024-10-07T18:33:03.051Z",
+	"dcterms:created": "2024-10-07T18:33:03.051Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/silkal",
 		"@type": [
@@ -149,7 +148,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595#Target",
+		"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007203303051#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml",
@@ -163,7 +162,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595#Selector",
+			"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007203303051#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/lg[15]/l[3]/placeName"
 		}
@@ -770,7 +769,7 @@
             </lg>
 
             <lg n="41">
-               <l n="121">I saw <persName key="Electra" ref="http://www.wikidata.org/entity/Q858663" cert="low" type="fictional">Electra</persName> with companions many,</l>
+               <l n="121">I saw <persName key="Electra" ref="http://www.wikidata.org/entity/Q858663" cert="medium" type="fictional">Electra</persName> with companions many,</l>
                <l n="122">’Mongst whom I knew both Hector and Aeneas,</l>
                <l n="123">Caesar in armour with gerfalcon eyes;</l>
             </lg>
