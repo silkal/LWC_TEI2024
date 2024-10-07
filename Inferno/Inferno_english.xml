@@ -138,7 +138,7 @@
 	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?place_annotation_20241007201814595",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-10-07T18:18:14.595Z",
-	"dcterms:modified": "2024-10-07T18:29:04.030Z",
+	"dcterms:modified": "2024-10-07T18:32:26.771Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/silkal",
 		"@type": [
@@ -181,7 +181,7 @@
 		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:UnknownCertainty"
+	"cwrc:hasPrecision": "cwrc:lowCertainty"
 }]]>
         </rdf:Description>
       
@@ -427,6 +427,89 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007203159510",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T18:31:59.510Z",
+	"dcterms:modified": "2024-10-07T18:31:59.510Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/silkal",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Silke Kalmer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007203159510#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/silkal/LWC_TEI2024/main/Inferno/Inferno_english.xml?person_annotation_20241007203159510#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[41]/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q858663",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by members of the Linked Editing Academic Framework
@@ -533,7 +616,7 @@
             <lg n="15">
                <l n="43">Great grief seized on my heart when this I heard,</l>
                <l n="44">Because some people of much worthiness</l>
-               <l n="45">I knew, who in that <placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="high">Limbo<precision match="@ref" precision="Unknown"/></placeName> were suspended.</l>
+               <l n="45">I knew, who in that <placeName key="limbo" ref="http://www.wikidata.org/entity/Q270710" cert="high">Limbo<precision match="@ref" precision="low"/></placeName> were suspended.</l>
             </lg>
 
             <lg n="16">
@@ -687,7 +770,7 @@
             </lg>
 
             <lg n="41">
-               <l n="121">I saw Electra with companions many,</l>
+               <l n="121">I saw <persName key="Electra" ref="http://www.wikidata.org/entity/Q858663" cert="low" type="fictional">Electra</persName> with companions many,</l>
                <l n="122">’Mongst whom I knew both Hector and Aeneas,</l>
                <l n="123">Caesar in armour with gerfalcon eyes;</l>
             </lg>
